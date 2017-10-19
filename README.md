@@ -3,7 +3,8 @@
 This is my first github project!
 
 ## 学习笔记一：
-#### git命令行————本地修改的文件提交到github远程仓库上：  
+![git图解](http://img.blog.csdn.net/20170422114557808?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvanRyYWN5ZHk=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center "git图解")
+#### git命令行——本地修改的文件提交到github远程仓库上：  
 1. 进入本地仓库，查看状态：`git status`，被修改的文件标为红色;  
 2. 提交修改后的文件到本地缓存区：`git add README.md`，成功后再次查看状态时，被修改的文件被标为绿色;  
 注：`git add .` 　   ----添加所有新增的文件  
