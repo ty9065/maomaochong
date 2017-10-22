@@ -28,7 +28,7 @@ mac bash下输入`python`后回车就是python shell界面了，且会显示pyth
 退出该界面回到 mac bash按`ctrl+d`即可。 
 
 #### 判断pip是否已安装：  
-mac bash下输入`pip`后没报错，且有一系列说明，即为已安装。  
+mac bash下输入`pip --version`，如果结果显示版本号，即为已安装。  
 另，pip is already installed if you are using Python 2 >=2.7.9 or Python 3 >=3.4  
 
 ---------
