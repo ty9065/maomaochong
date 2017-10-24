@@ -12,6 +12,30 @@ This is my first github project!
 3. 提交更新后的文件，并添加备注说明：`git commit -m "提交说明"`  
 4. 将本地仓库修改后的文件push到远程仓库：`git push`  
 
+git命令   | 含义
+---------| ---------
+git checkout . | 撤销修改，将项目恢复到最后一次提交的状态
+git checkout ID的前6个字符 | 检出以前的提交
+git log  | 查看提交历史
+
+#### 使用git命令上传本地项目到github：
+* 建立本地git仓库
+  ```
+  git init
+  git add .
+  git commit -m "first commit"
+  ```
+* 在github上创建远程仓库：
+  - [ ] Initialize this repository with a README  
+  注：上传本地已有仓库时不要勾选；此处不勾选  
+  将远程仓库克隆到本地时勾选；
+
+* push本地仓库：
+  ```
+  git remote add origin https://github.com/ty9065/learning_log.git
+  git push -u origin master
+  ```
+
 #### mac下复制SSH到公有key:  
 `pbcopy < ~/.ssh/id_rsa.pub`
 
