@@ -1,8 +1,14 @@
-## sublime Text2 快捷键：  
+## sublime Text2 快捷键（Mac）：  
 快捷键|含义
 ---------| ---------
 command + B  |  运行
 command + `  |  控制台
+command + / | 注释
+
+## Mac快捷键：
+快捷键|含义
+---------| ---------
+command+shift+.  |  显示/隐藏文件
 
 ---
 
